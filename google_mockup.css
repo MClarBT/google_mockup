@@ -1,0 +1,136 @@
+
+body {
+	text-align: center;
+}
+
+.container {
+
+	display: grid;
+	/*grid-template-columns: auto auto;*/
+	font-size: 20px;
+ 	text-align: center;
+	padding: 30px;
+	/*grid-row-gap: 10px;
+ 	/*color: white;*/
+        /*grid-column-gap: 2px;
+  	grid-row-gap: 2px;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+  	grid-template-rows: 20% 20% 20% 20% 20%;*/
+
+}
+
+/* The Google title needs to be centered well no matter the screen size. */
+.google-title-container {
+
+	display: flex;
+	justify-content: center;
+}
+
+#google-title {
+
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.search-bar-container {
+
+	display: flex;
+	justify-content: center;
+}
+
+#search-bar {
+
+	width: 45%;
+	height: 20%;
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+	/*justify-self: center;*/
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+/* .microphone-container {
+	display: flex;
+	justify-content: end;
+	/* align-self: end; */
+/* } */
+
+
+/* microphone icon needs to be at right of search bar, inside*/
+
+#search-microphone {
+
+	text-align: right;
+}
+
+
+#search-microphone > img {
+
+	/*position: absolute;*/
+	/*left: 58em;*/
+	/* margin: auto;
+	display: flex; */
+	width: 	40px;
+	height: 40px;
+
+	/* flex-direction: row;
+	justify-content: flex-end; */
+	/* align-self: right; */
+	/*justify-self: end; /* not sure this line was effective...*/
+}
+
+.google-button {
+	/* left off at getting the two search buttons under the
+	search bar together.*/
+	width: 100px;
+	height: 40px;
+	background-color: #DCDCDC;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+.buttons-container {
+
+	display: flex;
+	justify-content: center;
+}
+
+
+#google-search, #feeling-lucky {
+
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.todays-message-container {
+
+	display: flex;
+	justify-content: center;
+}
+
+
+
+#message {
+
+	font-size: 15px;
+
+	/* the words Android and iOS need to be in blue.*/
+}
+
+#giftbox > img {
+
+	width: 70px;
+	height: 50px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+/* CSS rules that apply if we are rendering on a screen from 0px to 768px wide */
+	#search-bar {
+		width: 65%;
+	}
+}
