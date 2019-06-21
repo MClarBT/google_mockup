@@ -1,0 +1,19 @@
+{
+  "name": "google_mockup",
+  "version": "1.0.0",
+  "description": "this is for my Google homepage mockup.",
+  "main": "index.js",
+  "repository": "https://github.com/MClarBT/google_mockup.git",
+  "author": "Milen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+   "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+     "node": ">=11.13.0"
+  }
+
+}
