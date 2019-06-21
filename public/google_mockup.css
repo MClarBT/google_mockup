@@ -39,7 +39,7 @@ body {
 	justify-content: center;
 }
 
-#search-bar {
+#search-bar > input {
 
 	width: 45%;
 	height: 20%;
