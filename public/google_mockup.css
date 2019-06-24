@@ -39,47 +39,51 @@ body {
 	justify-content: center;
 }
 
-#search-bar > input {
+.search-bar {
+
+	position: relative;
+}
+
+/*.search-bar > img {
+
+	position: absolute;
+	right: 0;
+	top: 8px;
+	padding: 9px 8px;
+	width: 
+}*/
+
+#search-bar input[type=text] {
 
 	width: 45%;
-	height: 20%;
+	height: 38%;
 	border-style: solid;
 	border-color: blue;
 	border-width: 1px;
 	/*justify-self: center;*/
 	grid-column-start: 1;
 	grid-column-end: 3;
+	padding-right: 40px;
 }
-
-/* .microphone-container {
-	display: flex;
-	justify-content: end;
-	/* align-self: end; */
-/* } */
 
 
 /* microphone icon needs to be at right of search bar, inside*/
 
-#search-microphone {
+/*#search-microphone {
 
 	text-align: right;
-}
+}*/
+
+/* I think this video might help: https://www.youtube.com/watch?v=rWjntaq4FW4*/
 
 
-#search-microphone > img {
 
-	/*position: absolute;*/
-	/*left: 58em;*/
-	/* margin: auto;
-	display: flex; */
-	width: 	40px;
-	height: 40px;
+/*#search-microphone > img {
 
-	/* flex-direction: row;
-	justify-content: flex-end; */
-	/* align-self: right; */
-	/*justify-self: end; /* not sure this line was effective...*/
-}
+	/*width: 30px;
+	height: 30px;*/
+
+/*}*/
 
 .google-button {
 	/* left off at getting the two search buttons under the
